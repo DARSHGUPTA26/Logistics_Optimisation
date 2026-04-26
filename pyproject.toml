@@ -1,0 +1,35 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the BSD-style license found in the
+# LICENSE file in the root directory of this source tree.
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openenv-supply-chain"
+version = "0.1.0"
+description = "Supply Chain RL environment for OpenEnv — multi-tier hub routing with capacity, congestion, and stochastic delays"
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core[core]>=0.2.2",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.scripts]
+server = "supply_chain.server.app:main"
+
+[tool.setuptools]
+include-package-data = true
+packages = ["supply_chain", "supply_chain.server"]
+package-dir = { "supply_chain" = ".", "supply_chain.server" = "server" }

@@ -1,0 +1,6 @@
+spec_version: 1
+name: supply_chain
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
