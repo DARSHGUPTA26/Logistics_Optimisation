@@ -1,0 +1,22 @@
+hub_id,city,state,tier,tier_name,lat,lon,capacity,notes
+M0,Delhi,Delhi,0,Mega,28.6139,77.2090,80,National Capital Region — primary northern sorting hub (Delhivery/FedEx/BlueDart flagship)
+M1,Mumbai,Maharashtra,0,Mega,19.0760,72.8777,80,Financial capital — Bhiwandi warehouse corridor; largest western gateway hub
+M2,Bengaluru,Karnataka,0,Mega,12.9716,77.5946,80,Tech capital — Hoskote logistics park; primary southern hub for all major 3PLs
+R0,Hyderabad,Telangana,1,Regional,17.3850,78.4867,40,Major southern regional hub; HMRL logistics zone; connects Deccan to both coasts
+R1,Chennai,Tamil Nadu,1,Regional,13.0827,80.2707,40,Eastern gateway of South India; major port city; Oragadam industrial corridor
+R2,Kolkata,West Bengal,1,Regional,22.5726,88.3639,40,Eastern India gateway; Dankuni logistics hub; Northeast corridor origin
+R3,Pune,Maharashtra,1,Regional,18.5204,73.8567,40,Western Maharashtra industrial hub; Chakan corridor; satellite of Mumbai
+R4,Ahmedabad,Gujarat,1,Regional,23.0225,72.5714,40,Gujarat's primary logistics hub; GIFT City proximity; major textile/pharma flows
+R5,Jaipur,Rajasthan,1,Regional,26.9124,75.7873,40,Rajasthan gateway; connects Northwest India to Delhi NCR; handicraft/textile hub
+L0,Lucknow,Uttar Pradesh,2,Local,26.8467,80.9462,20,UP state capital; major last-mile hub for Indo-Gangetic plain
+L1,Chandigarh,Punjab,2,Local,30.7333,76.7794,20,Tri-city hub (Chandigarh/Mohali/Panchkula); covers Punjab and Haryana
+L2,Nagpur,Maharashtra,2,Local,21.1458,79.0882,20,Geographic centre of India; Zero Mile city; key transshipment node
+L3,Bhubaneswar,Odisha,2,Local,20.2961,85.8245,20,Odisha capital; covers eastern coastal belt; connects to Kolkata corridor
+L4,Coimbatore,Tamil Nadu,2,Local,11.0168,76.9558,20,Industrial hub of Tamil Nadu; textile/manufacturing; connects to Kerala
+L5,Kochi,Kerala,2,Local,9.9312,76.2673,20,Kerala's commercial capital; major port; covers entire southern Kerala
+L6,Indore,Madhya Pradesh,2,Local,22.7196,75.8577,20,MP's commercial capital; Pithampur industrial area; central India hub
+L7,Surat,Gujarat,2,Local,21.1702,72.8311,20,Diamond and textile capital; fastest growing city; high parcel density
+L8,Patna,Bihar,2,Local,25.5941,85.1376,20,Bihar capital; covers eastern UP/Bihar belt; high volume last-mile
+L9,Guwahati,Assam,2,Local,26.1445,91.7362,20,Gateway to Northeast India; covers all 8 sister states
+L10,Visakhapatnam,Andhra Pradesh,2,Local,17.6868,83.2185,20,AP's major port city; covers northern coastal AP and parts of Odisha
+L11,Vadodara,Gujarat,2,Local,22.3072,73.1812,20,Gujarat's third largest city; Savli industrial corridor; connects Surat-Ahmedabad
