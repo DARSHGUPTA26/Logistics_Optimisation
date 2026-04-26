@@ -29,7 +29,8 @@ A production-grade reinforcement learning environment built on [OpenEnv](https:/
 
 ## Training Results
 
-
+![Training](training_curve_final(1).png)
+![Training](training_curve_final(2).png)
 
 ---
 
