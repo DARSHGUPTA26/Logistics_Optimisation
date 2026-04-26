@@ -1,0 +1,37 @@
+step_in_episode,hour_of_day,day_type,spawn_rate_multiplier,period_label,notes
+0,0,weekday,0.35,night_lull,Midnight-2am: minimal orders; only automated/scheduled shipments
+1,2,weekday,0.30,night_lull,2-4am: lowest demand window; night shift warehouse processing
+2,4,weekday,0.40,early_morning,4-6am: early morning processing begins; overnight orders dispatched
+3,6,weekday,0.70,morning_ramp,6-8am: workers arrive; morning order wave begins (India wakes up early)
+4,8,weekday,1.10,morning_peak,8-10am: strong morning peak; office commuters placing orders
+5,10,weekday,1.40,mid_morning_peak,10am-12pm: primary peak window; Flipkart/Amazon highest order volume
+6,12,weekday,1.20,lunch_peak,12-2pm: lunch break ordering spike; food + quick commerce surge
+7,14,weekday,0.90,afternoon,2-4pm: post-lunch dip; steady background demand
+8,16,weekday,1.00,late_afternoon,4-6pm: pre-evening ramp; office workers browsing
+9,18,weekday,1.50,evening_peak,6-8pm: PRIMARY PEAK — highest volume of day; post-work shopping surge
+10,20,weekday,1.60,prime_evening,8-10pm: HIGHEST PEAK — India's prime time shopping window; Meesho/Flipkart flash sales
+11,22,weekday,0.80,late_evening,10pm-midnight: declining but still significant; last-minute orders
+12,0,weekend,0.45,night_lull,Weekend midnight: slightly higher than weekday (late night shoppers)
+13,2,weekend,0.35,night_lull,Weekend 2-4am: lowest of weekend cycle
+14,4,weekend,0.50,early_morning,Weekend early morning: higher than weekday (no early commute)
+15,6,weekend,0.60,morning_ramp,Weekend morning: slower ramp (people sleep in)
+16,8,weekend,0.90,morning_peak,Weekend 8-10am: family shopping begins; grocery + lifestyle orders
+17,10,weekend,1.30,mid_morning_peak,Weekend 10am-12pm: peak weekend browsing window
+18,12,weekend,1.45,lunch_peak,Weekend lunch: highest midday demand (families at home)
+19,14,weekend,1.35,afternoon,Weekend afternoon: sustained high demand; leisure shopping
+20,16,weekend,1.40,late_afternoon,Weekend 4-6pm: pre-evening high; festival/gifting orders peak
+21,18,weekend,1.55,evening_peak,Weekend evening: social commerce; group orders; gifting
+22,20,weekend,1.70,prime_evening,Weekend prime time: ABSOLUTE HIGHEST; Big Billion Day type demand
+23,22,weekend,1.00,late_evening,Weekend late evening: sustained vs weekday equivalent
+24,0,festival,2.50,festival_surge,Diwali/Big Billion Day/Republic Day Sale: midnight launch surge
+25,6,festival,2.20,festival_surge,Festival morning: queued orders from overnight; warehouse crunch
+26,10,festival,2.80,festival_peak,Festival mid-morning: MAXIMUM DEMAND — flash sale peak hours
+27,14,festival,2.40,festival_surge,Festival afternoon: sustained surge; cart checkouts
+28,18,festival,2.60,festival_surge,Festival evening: second wave; gifting + personal orders
+29,20,festival,3.00,festival_peak,Festival prime time: absolute maximum; system stress test
+30,0,sunday_night,1.20,sunday_surge,Sunday night: weekly inventory replenishment orders flood in
+31,10,monday_morning,1.35,monday_surge,Monday morning: weekend order processing + new week demand
+32,6,month_end,1.80,salary_effect,Month-end (25th-31st): salary credited; aspirational purchase surge
+33,10,month_end,2.10,salary_peak,Month-end mid-morning: highest salary-effect demand window
+34,0,sale_event,2.20,sale_midnight,Amazon/Flipkart sale: midnight deal unlock surge
+35,10,sale_event,2.50,sale_peak,Sale event peak hours: deal hunters + impulse buyers combined

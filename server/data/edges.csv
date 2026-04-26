@@ -1,0 +1,81 @@
+from_hub,to_hub,from_city,to_city,tier_type,distance_km,base_travel_time_steps,highway_notes
+L0,L1,Lucknow,Chandigarh,local_to_local,592.9,3,NH30 Chandigarh-Lucknow via Bareilly
+L0,L8,Lucknow,Patna,local_to_local,440.7,3,NH28 Lucknow-Patna
+L0,R5,Lucknow,Jaipur,regional_to_local,511.7,3,NH30 Jaipur-Lucknow via Agra
+L1,L0,Chandigarh,Lucknow,local_to_local,592.9,3,NH30 Chandigarh-Lucknow via Bareilly
+L1,M0,Chandigarh,Delhi,local_to_local,239.3,3,NH44 Delhi-Chandigarh (Himachal Express)
+L1,R5,Chandigarh,Jaipur,regional_to_local,435.7,3,NH48 Jaipur-Chandigarh via Ambala
+L10,L3,Visakhapatnam,Bhubaneswar,local_to_local,399.0,3,NH16 Bhubaneswar-Visakhapatnam
+L10,R0,Visakhapatnam,Hyderabad,regional_to_local,502.8,3,NH16 Hyderabad-Visakhapatnam
+L10,R1,Visakhapatnam,Chennai,regional_to_local,601.6,3,NH16 Chennai-Visakhapatnam
+L11,L7,Vadodara,Surat,local_to_local,131.5,2,NH48 Surat-Vadodara
+L11,R4,Vadodara,Ahmedabad,regional_to_local,101.2,1,NH48 Ahmedabad-Vadodara Expressway
+L2,L6,Nagpur,Indore,local_to_local,376.4,3,NH44 Indore-Nagpur
+L2,R0,Nagpur,Hyderabad,regional_to_local,422.9,3,NH44 Hyderabad-Nagpur
+L3,L10,Bhubaneswar,Visakhapatnam,local_to_local,399.0,3,NH16 Bhubaneswar-Visakhapatnam
+L3,R2,Bhubaneswar,Kolkata,regional_to_local,364.9,3,NH16 Kolkata-Bhubaneswar
+L4,L5,Coimbatore,Kochi,local_to_local,142.3,2,NH544 Coimbatore-Kochi
+L4,M2,Coimbatore,Bengaluru,local_to_local,228.2,3,NH275 Bengaluru-Mysuru-Coimbatore
+L4,R1,Coimbatore,Chennai,regional_to_local,427.4,3,NH544 Chennai-Coimbatore
+L5,L4,Kochi,Coimbatore,local_to_local,142.3,2,NH544 Coimbatore-Kochi
+L5,M2,Kochi,Bengaluru,local_to_local,367.7,3,NH544 Bengaluru-Kochi
+L6,L2,Indore,Nagpur,local_to_local,376.4,3,NH44 Indore-Nagpur
+L6,R3,Indore,Pune,regional_to_local,511.2,3,NH52 Pune-Indore via Dhule
+L7,L11,Surat,Vadodara,local_to_local,131.5,2,NH48 Surat-Vadodara
+L7,M1,Surat,Mumbai,local_to_local,232.9,3,NH48 Mumbai-Surat
+L7,R4,Surat,Ahmedabad,regional_to_local,207.7,3,NH48 Ahmedabad-Surat
+L8,L0,Patna,Lucknow,local_to_local,440.7,3,NH28 Lucknow-Patna
+L8,R2,Patna,Kolkata,regional_to_local,469.2,3,NH19 Kolkata-Patna (Grand Trunk)
+L9,R2,Guwahati,Kolkata,regional_to_local,523.8,3,NH27 Kolkata-Guwahati (Trans-India Highway)
+M0,L1,Delhi,Chandigarh,local_to_local,239.3,3,NH44 Delhi-Chandigarh (Himachal Express)
+M0,M1,Delhi,Mumbai,mega_to_mega,1148.1,6,NH48 Mumbai-Delhi Expressway + freight rail
+M0,M2,Delhi,Bengaluru,mega_to_mega,1739.8,6,NH44 Delhi-Bengaluru via Hyderabad
+M0,R2,Delhi,Kolkata,mega_to_regional,1303.8,5,NH19 Delhi-Kolkata (Grand Trunk Road)
+M0,R4,Delhi,Ahmedabad,mega_to_regional,775.7,5,NH48 Delhi-Ahmedabad
+M0,R5,Delhi,Jaipur,mega_to_regional,235.3,2,NH48 Delhi-Jaipur Expressway (shortest leg)
+M1,L7,Mumbai,Surat,local_to_local,232.9,3,NH48 Mumbai-Surat
+M1,M0,Mumbai,Delhi,mega_to_mega,1148.1,6,NH48 Mumbai-Delhi Expressway + freight rail
+M1,M2,Mumbai,Bengaluru,mega_to_mega,845.3,4,NH48 Pune-Bengaluru + Konkan corridor
+M1,R0,Mumbai,Hyderabad,mega_to_regional,621.5,4,NH65 Pune-Hyderabad via Solapur
+M1,R3,Mumbai,Pune,mega_to_regional,120.2,1,NH48 Mumbai-Pune Expressway
+M1,R4,Mumbai,Ahmedabad,mega_to_regional,440.0,3,NH48 Mumbai-Ahmedabad (Western Freight Corridor)
+M2,L4,Bengaluru,Coimbatore,local_to_local,228.2,3,NH275 Bengaluru-Mysuru-Coimbatore
+M2,L5,Bengaluru,Kochi,local_to_local,367.7,3,NH544 Bengaluru-Kochi
+M2,M0,Bengaluru,Delhi,mega_to_mega,1739.8,6,NH44 Delhi-Bengaluru via Hyderabad
+M2,M1,Bengaluru,Mumbai,mega_to_mega,845.3,4,NH48 Pune-Bengaluru + Konkan corridor
+M2,R0,Bengaluru,Hyderabad,mega_to_regional,500.0,3,NH44 Bengaluru-Hyderabad
+M2,R1,Bengaluru,Chennai,mega_to_regional,290.2,2,NH44 Bengaluru-Chennai
+R0,L10,Hyderabad,Visakhapatnam,regional_to_local,502.8,3,NH16 Hyderabad-Visakhapatnam
+R0,L2,Hyderabad,Nagpur,regional_to_local,422.9,3,NH44 Hyderabad-Nagpur
+R0,M1,Hyderabad,Mumbai,mega_to_regional,621.5,4,NH65 Pune-Hyderabad via Solapur
+R0,M2,Hyderabad,Bengaluru,mega_to_regional,500.0,3,NH44 Bengaluru-Hyderabad
+R0,R1,Hyderabad,Chennai,regional_to_regional,515.2,4,NH16 Hyderabad-Chennai via Nellore
+R0,R2,Hyderabad,Kolkata,regional_to_regional,1181.9,4,NH16 + NH49 Hyderabad-Kolkata via Visakhapatnam
+R0,R3,Hyderabad,Pune,regional_to_regional,505.8,4,NH65 Hyderabad-Pune
+R0,R5,Hyderabad,Jaipur,regional_to_regional,1095.1,4,NH44 Jaipur-Hyderabad via Nagpur (long diagonal)
+R1,L10,Chennai,Visakhapatnam,regional_to_local,601.6,3,NH16 Chennai-Visakhapatnam
+R1,L4,Chennai,Coimbatore,regional_to_local,427.4,3,NH544 Chennai-Coimbatore
+R1,M2,Chennai,Bengaluru,mega_to_regional,290.2,2,NH44 Bengaluru-Chennai
+R1,R0,Chennai,Hyderabad,regional_to_regional,515.2,4,NH16 Hyderabad-Chennai via Nellore
+R1,R2,Chennai,Kolkata,regional_to_regional,1358.4,4,NH16 Chennai-Kolkata coastal highway
+R2,L3,Kolkata,Bhubaneswar,regional_to_local,364.9,3,NH16 Kolkata-Bhubaneswar
+R2,L8,Kolkata,Patna,regional_to_local,469.2,3,NH19 Kolkata-Patna (Grand Trunk)
+R2,L9,Kolkata,Guwahati,regional_to_local,523.8,3,NH27 Kolkata-Guwahati (Trans-India Highway)
+R2,M0,Kolkata,Delhi,mega_to_regional,1303.8,5,NH19 Delhi-Kolkata (Grand Trunk Road)
+R2,R0,Kolkata,Hyderabad,regional_to_regional,1181.9,4,NH16 + NH49 Hyderabad-Kolkata via Visakhapatnam
+R2,R1,Kolkata,Chennai,regional_to_regional,1358.4,4,NH16 Chennai-Kolkata coastal highway
+R3,L6,Pune,Indore,regional_to_local,511.2,3,NH52 Pune-Indore via Dhule
+R3,M1,Pune,Mumbai,mega_to_regional,120.2,1,NH48 Mumbai-Pune Expressway
+R3,R0,Pune,Hyderabad,regional_to_regional,505.8,4,NH65 Hyderabad-Pune
+R3,R4,Pune,Ahmedabad,regional_to_regional,518.1,4,NH48 Pune-Ahmedabad
+R4,L11,Ahmedabad,Vadodara,regional_to_local,101.2,1,NH48 Ahmedabad-Vadodara Expressway
+R4,L7,Ahmedabad,Surat,regional_to_local,207.7,3,NH48 Ahmedabad-Surat
+R4,M0,Ahmedabad,Delhi,mega_to_regional,775.7,5,NH48 Delhi-Ahmedabad
+R4,M1,Ahmedabad,Mumbai,mega_to_regional,440.0,3,NH48 Mumbai-Ahmedabad (Western Freight Corridor)
+R4,R3,Ahmedabad,Pune,regional_to_regional,518.1,4,NH48 Pune-Ahmedabad
+R4,R5,Ahmedabad,Jaipur,regional_to_regional,540.5,4,NH48 Ahmedabad-Jaipur
+R5,L0,Jaipur,Lucknow,regional_to_local,511.7,3,NH30 Jaipur-Lucknow via Agra
+R5,L1,Jaipur,Chandigarh,regional_to_local,435.7,3,NH48 Jaipur-Chandigarh via Ambala
+R5,M0,Jaipur,Delhi,mega_to_regional,235.3,2,NH48 Delhi-Jaipur Expressway (shortest leg)
+R5,R0,Jaipur,Hyderabad,regional_to_regional,1095.1,4,NH44 Jaipur-Hyderabad via Nagpur (long diagonal)
+R5,R4,Jaipur,Ahmedabad,regional_to_regional,540.5,4,NH48 Ahmedabad-Jaipur
