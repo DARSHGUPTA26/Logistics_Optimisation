@@ -17,22 +17,19 @@ tags:
   - sparse-rewards
 ---
 
-# 📦 Supply Chain RL Environment
+#  Supply Chain RL Environment
 
 A production-grade reinforcement learning environment built on [OpenEnv](https://github.com/meta-llm/openenv), targeting **long-horizon planning** under real-world logistics constraints. Agents must route parcels across a realistic Indian three-tier logistics network over episodes of up to **2000 steps**, with sparse delayed rewards, nested multi-parcel contract goals, and explicit cascade recovery mechanics.
 
-[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-blue)](YOUR_HUGGINGFACE_URL_HERE)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_URL_HERE)
+## Important Links
+[Google Colab](https://colab.research.google.com/drive/1uoYcg-PZTGSXboJj9t9CrQ_D6env9zYZ?usp=sharing),
+[Hugging Face]()
 
 ---
 
 ## Training Results
 
-<!-- Replace the placeholder URLs below with your actual graph image links -->
 
-| Reward over Episodes | Delivery Rate (rolling 100) | Contract Completion Rate |
-|---|---|---|
-| ![Reward Curve](YOUR_REWARD_GRAPH_URL_HERE) | ![Delivery Rate](YOUR_DELIVERY_RATE_GRAPH_URL_HERE) | ![Contract Rate](YOUR_CONTRACT_RATE_GRAPH_URL_HERE) |
 
 ---
 
@@ -358,7 +355,3 @@ supply_chain/
 | `GET` | `/web` | Interactive web UI |
 
 ---
-
-## License
-
-BSD-style — see LICENSE file in the root of this repository.
